@@ -13,5 +13,6 @@ int main()
 	if (w-x < min) min = w-x;
 	if (h-y < min) min = h-y;
 
+
 	cout << min;
 }
