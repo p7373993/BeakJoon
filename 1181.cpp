@@ -19,6 +19,8 @@ bool comlen(string a, string b)
 			{
 				return false;
 			}
+			else if (a[i] == b[i]) continue;
+			else return true;
 		}
 		return true;
 	}
