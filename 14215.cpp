@@ -8,7 +8,7 @@ int main()
 	cin>> a >> b >> c;
 	int max = a;
 	int temp;
-	if (max < b) max = b;
+	if (max < b) max = b;	
 	if (max < c) max = c;
 	if (max >= (a + b+c-max))
 	{
