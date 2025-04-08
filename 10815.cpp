@@ -20,9 +20,9 @@ int main()
 	{
 		cin >> v;
 	}
-	for (const auto& v: vec)
+	for (const auto& v : vec)
 	{
-		if (s.find(v)== s.end())
+		if (s.find(v) == s.end())
 		{
 			cout << 0 << ' ';
 		}
@@ -31,5 +31,4 @@ int main()
 			cout << 1 << ' ';
 		}
 	}
-
 }

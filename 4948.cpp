@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-
+//n ~2n ÀÇ ¼Ò¼ö
 int main()
 {
 
