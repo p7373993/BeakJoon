@@ -19,6 +19,9 @@
     <Filter Include="소스 파일\소수">
       <UniqueIdentifier>{60fd7a4a-4dee-440e-935f-87f29e9dbb05}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\스택,큐,덱">
+      <UniqueIdentifier>{32f18f5c-aeed-48cc-b317-77080b0e4091}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="test.cpp">
@@ -230,6 +233,9 @@
     </ClCompile>
     <ClCompile Include="13909.cpp">
       <Filter>소스 파일\소수</Filter>
+    </ClCompile>
+    <ClCompile Include="28278.cpp">
+      <Filter>소스 파일\스택,큐,덱</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
