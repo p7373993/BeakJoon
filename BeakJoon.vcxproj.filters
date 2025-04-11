@@ -16,6 +16,12 @@
     <Filter Include="소스 파일\4_1전">
       <UniqueIdentifier>{0eb563cf-d46e-4729-ab1e-f2128c81e3c6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\소수">
+      <UniqueIdentifier>{60fd7a4a-4dee-440e-935f-87f29e9dbb05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\스택,큐,덱">
+      <UniqueIdentifier>{32f18f5c-aeed-48cc-b317-77080b0e4091}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="test.cpp">
@@ -201,29 +207,41 @@
     <ClCompile Include="18870.cpp">
       <Filter>소스 파일\4_1전</Filter>
     </ClCompile>
-    <ClCompile Include="13241.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="17103.cpp">
+      <Filter>소스 파일\소수</Filter>
     </ClCompile>
     <ClCompile Include="1735.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1934.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2485.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="4134.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="4948.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="17103.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\소수</Filter>
     </ClCompile>
     <ClCompile Include="1929.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\소수</Filter>
+    </ClCompile>
+    <ClCompile Include="1934.cpp">
+      <Filter>소스 파일\소수</Filter>
+    </ClCompile>
+    <ClCompile Include="2485.cpp">
+      <Filter>소스 파일\소수</Filter>
+    </ClCompile>
+    <ClCompile Include="4134.cpp">
+      <Filter>소스 파일\소수</Filter>
+    </ClCompile>
+    <ClCompile Include="4948.cpp">
+      <Filter>소스 파일\소수</Filter>
+    </ClCompile>
+    <ClCompile Include="13241.cpp">
+      <Filter>소스 파일\소수</Filter>
+    </ClCompile>
+    <ClCompile Include="13909.cpp">
+      <Filter>소스 파일\소수</Filter>
+    </ClCompile>
+    <ClCompile Include="28278.cpp">
+      <Filter>소스 파일\스택,큐,덱</Filter>
+    </ClCompile>
+    <ClCompile Include="10773.cpp">
+      <Filter>소스 파일\스택,큐,덱</Filter>
+    </ClCompile>
+    <ClCompile Include="9012.cpp">
+      <Filter>소스 파일\스택,큐,덱</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
