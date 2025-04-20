@@ -259,13 +259,13 @@
       <Filter>소스 파일\스택,큐,덱</Filter>
     </ClCompile>
     <ClCompile Include="28279.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\스택,큐,덱</Filter>
     </ClCompile>
     <ClCompile Include="2346.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\스택,큐,덱</Filter>
     </ClCompile>
     <ClCompile Include="24511.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\스택,큐,덱</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
