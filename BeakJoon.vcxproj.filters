@@ -243,5 +243,29 @@
     <ClCompile Include="9012.cpp">
       <Filter>소스 파일\스택,큐,덱</Filter>
     </ClCompile>
+    <ClCompile Include="4949.cpp">
+      <Filter>소스 파일\스택,큐,덱</Filter>
+    </ClCompile>
+    <ClCompile Include="12789.cpp">
+      <Filter>소스 파일\스택,큐,덱</Filter>
+    </ClCompile>
+    <ClCompile Include="18258.cpp">
+      <Filter>소스 파일\스택,큐,덱</Filter>
+    </ClCompile>
+    <ClCompile Include="2164.cpp">
+      <Filter>소스 파일\스택,큐,덱</Filter>
+    </ClCompile>
+    <ClCompile Include="11866.cpp">
+      <Filter>소스 파일\스택,큐,덱</Filter>
+    </ClCompile>
+    <ClCompile Include="28279.cpp">
+      <Filter>소스 파일\스택,큐,덱</Filter>
+    </ClCompile>
+    <ClCompile Include="2346.cpp">
+      <Filter>소스 파일\스택,큐,덱</Filter>
+    </ClCompile>
+    <ClCompile Include="24511.cpp">
+      <Filter>소스 파일\스택,큐,덱</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
