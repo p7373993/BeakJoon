@@ -8,3 +8,4 @@ int main()
 	cin >> n;
 	cout << pow(2, n);
 }
+//asd
