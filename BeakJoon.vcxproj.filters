@@ -295,7 +295,10 @@
       <Filter>소스 파일\심화2</Filter>
     </ClCompile>
     <ClCompile Include="26069.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\심화2</Filter>
+    </ClCompile>
+    <ClCompile Include="2108.cpp">
+      <Filter>소스 파일\심화2</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
