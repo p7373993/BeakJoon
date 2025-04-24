@@ -22,6 +22,12 @@
     <Filter Include="소스 파일\스택,큐,덱">
       <UniqueIdentifier>{32f18f5c-aeed-48cc-b317-77080b0e4091}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\조합론">
+      <UniqueIdentifier>{b667169e-29a2-418e-8c41-52d5ea0bf801}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\심화2">
+      <UniqueIdentifier>{9f3c923d-fd17-461d-b04f-e9530e00bc99}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="test.cpp">
@@ -266,6 +272,30 @@
     </ClCompile>
     <ClCompile Include="24511.cpp">
       <Filter>소스 파일\스택,큐,덱</Filter>
+    </ClCompile>
+    <ClCompile Include="24723.cpp">
+      <Filter>소스 파일\조합론</Filter>
+    </ClCompile>
+    <ClCompile Include="1010.cpp">
+      <Filter>소스 파일\조합론</Filter>
+    </ClCompile>
+    <ClCompile Include="10872.cpp">
+      <Filter>소스 파일\조합론</Filter>
+    </ClCompile>
+    <ClCompile Include="11050.cpp">
+      <Filter>소스 파일\조합론</Filter>
+    </ClCompile>
+    <ClCompile Include="15439.cpp">
+      <Filter>소스 파일\조합론</Filter>
+    </ClCompile>
+    <ClCompile Include="1037.cpp">
+      <Filter>소스 파일\심화2</Filter>
+    </ClCompile>
+    <ClCompile Include="25192.cpp">
+      <Filter>소스 파일\심화2</Filter>
+    </ClCompile>
+    <ClCompile Include="26069.cpp">
+      <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
