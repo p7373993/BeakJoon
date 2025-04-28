@@ -10,6 +10,7 @@ int main() {
     int n;
     cin >> n;
     deque<int> deq;
+//Å×½ºÆ®
 
     for (int i = 0; i < n; i++) {
         int in, num;
