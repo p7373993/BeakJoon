@@ -298,7 +298,22 @@
       <Filter>소스 파일\심화2</Filter>
     </ClCompile>
     <ClCompile Include="26069.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\심화2</Filter>
+    </ClCompile>
+    <ClCompile Include="20920.cpp">
+      <Filter>소스 파일\심화2</Filter>
+    </ClCompile>
+    <ClCompile Include="27433.cpp">
+      <Filter>소스 파일\재귀</Filter>
+    </ClCompile>
+    <ClCompile Include="10870.cpp">
+      <Filter>소스 파일\재귀</Filter>
+    </ClCompile>
+    <ClCompile Include="25501.cpp">
+      <Filter>소스 파일\재귀</Filter>
+    </ClCompile>
+    <ClCompile Include="24060.cpp">
+      <Filter>소스 파일\재귀</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
