@@ -3,30 +3,40 @@
 #include <vector>
 using namespace std;
 
-void re(vector<vector<vector<vector<char>>>>& a, int n,int k)
+void re(vector<string>& a,int n , int k)
 {
-	int num = pow(3, k);
-	if (num > n) return;
-	vector<vector<vector<vector<char>>>>temp(num);
-	for (size_t i = 0; i < 3; i++)
+	if (n == k) return;
+	n *= 3;
+	for (size_t i = 0; i < (n*2)/3; i++)
 	{
-		for (size_t j = 0; j < 3; j++)
+		a.emplace_back(a[i%n]);
+	}
+	for (size_t i = 0; i < n; i++)
+	{
+		a[i] = a[i] + a[i] + a[i];
+	}
+
+	for (size_t i = (n/3); i < (n*2/3); i++)
+	{
+		for (size_t j = (n / 3); j < (n * 2 / 3); j++)
 		{
-			if (i == 1 && j == 1) continue;
-			temp[i][j] = a;
+			a[i][j] = ' ';
 		}
 	}
-	for (int i = 0; i < 3; i++)
-	{
-		
-	}
-	re(a, n, k + 1);
+
+	re(a, n, k);
 }
+
 int main()
 {
 	int n;
 	cin >> n;
-	vector<vector<char>> a(1);
-	a[0][0] = '*';
-	re(a, n, 1);
+	vector<string> vec(1, "*");
+	 
+	re(vec, 1, n);
+
+	for (auto& a : vec)
+	{
+		cout << a <<"\n";
+	}
 }
