@@ -9,7 +9,6 @@ void ha(int n,int a,int b, queue<pair<int, int>>& s,int& count)
 {
 	if (n == 1)
 	{
-
 		s.push({ a, b });
 		count++;
 		return;
@@ -20,8 +19,6 @@ void ha(int n,int a,int b, queue<pair<int, int>>& s,int& count)
 	s.push({ a,b });
 	count++;
 	ha(n - 1, c, b, s, count);
-
-
 
 }
 int main()
