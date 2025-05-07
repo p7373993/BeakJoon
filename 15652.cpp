@@ -21,7 +21,7 @@ void back(int k)
 	for (size_t i = k; i <= n; i++)
 	{
 			vec.emplace_back(i);
-			back(i);
+			back(i+1);
 			vec.pop_back();
 	}
 }
