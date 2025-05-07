@@ -31,6 +31,9 @@
     <Filter Include="소스 파일\재귀">
       <UniqueIdentifier>{85cf95eb-79a1-4769-99fe-65f01b42bed8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\백트래킹">
+      <UniqueIdentifier>{8d21fc98-fadb-47a1-8991-f3d16d85b311}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="test.cpp">
@@ -323,6 +326,18 @@
     </ClCompile>
     <ClCompile Include="11729.cpp">
       <Filter>소스 파일\재귀</Filter>
+    </ClCompile>
+    <ClCompile Include="15649.cpp">
+      <Filter>소스 파일\백트래킹</Filter>
+    </ClCompile>
+    <ClCompile Include="15650.cpp">
+      <Filter>소스 파일\백트래킹</Filter>
+    </ClCompile>
+    <ClCompile Include="15651.cpp">
+      <Filter>소스 파일\백트래킹</Filter>
+    </ClCompile>
+    <ClCompile Include="15652.cpp">
+      <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
