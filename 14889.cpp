@@ -6,67 +6,62 @@ using namespace std;
 
 int n;
 int mn = INT32_MAX;
-set<int> a_people;//차집합으로 나머지 b에 
-set<int> all_people;
-set<int> b_people;
+
 vector <vector<int>> vec;
-int find_mn()
+int a_people[21];
+int b_people[21];
+int find_mn(int a[])
 {
-	vector<int> temp_a(a_people.begin(), a_people.end());
-	vector<int> temp_b(b_people.begin(), b_people.end());
-
-	vector<pair<int,int>> pair_a;
-	vector<pair<int, int>> pair_b;
-
-	for (size_t i = 0; i < n/2; i++)
+	int sum = 0;
+	for (int i = 1; i <= n ; i++)
 	{
-		for (size_t j = i+1; j < n/2; j++)
+		if (a[i] == 1)
 		{
-			pair_a.push_back({temp_a[i],temp_a[j]});
-			pair_a.push_back({temp_a[j],temp_a[i]});
-
-
-			pair_b.push_back({ temp_b[i],temp_b[j] });
-			pair_b.push_back({ temp_b[j],temp_b[i] });
-
+			for (size_t j = i+1; j <= n; j++)
+			{
+				if (a[j] == 1)
+				{
+					sum += vec[i][j] + vec[j][i];
+					
+				}
+			}
 		}
 	}
-	int a_num=0, b_num=0;
-	for (auto& [first, second] : pair_a)
-	{
-		a_num = a_num + vec[first][second];
-	}
-	for (auto& [first, second] : pair_b)
-	{
-		b_num = b_num + vec[first][second];
-	}
-
-	if (a_num > b_num) return a_num - b_num;
-	else return b_num - a_num;
+	return sum;
 }
-void back()
+void back(int idx,int num)
 {
-	if (a_people.size() == n / 2)
+	if (num > n / 2)
 	{
-		b_people = all_people;
-		for (auto& a : a_people)
+		int a, b;
+		a=find_mn(a_people);
+		for (int i = 1; i <= n; i++)
 		{
-			b_people.erase(a);
+			b_people[i] = 0;
 		}
-		int temp = find_mn();
-
-		if (mn > temp) mn = temp;
+		for (int i = 1; i <=n; i++)
+		{
+			if (a_people[i] == 0) b_people[i]=1;
+		}
+		b=find_mn(b_people);
+		int c = a - b;
+		if (c >= 0)
+		{
+			if (mn > c) mn = c;
+		}
+		else
+		{
+			if (mn > (-c)) mn = (-c);
+		}
 		return;
 	}
 
-	for (int i = 1; i <= n ; i++)
+	for (int i = idx; i <= n ; i++)
 	{
-		if (a_people.find(i) == a_people.end())
-		{
-			a_people.insert(i);
-			back();
-			a_people.erase(i);
-		}
+		++a_people[i];
+		back(i + 1 ,num+1);
+		--a_people[i];
+
 	}
 }
 int main()
@@ -84,11 +79,8 @@ int main()
 		}
 	}
 	vec = vec2;
-	for (int i = 1; i <= n; i++)
-	{
-		all_people.insert(i);
-	}
 
-	back();
+
+	back(1,1);
 	cout << mn;
 }
