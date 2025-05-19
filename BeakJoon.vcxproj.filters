@@ -348,7 +348,13 @@
     <ClCompile Include="2580.cpp">
       <Filter>소스 파일\백트래킹</Filter>
     </ClCompile>
+    <ClCompile Include="14888_1.cpp">
+      <Filter>소스 파일\백트래킹</Filter>
+    </ClCompile>
     <ClCompile Include="14888.cpp">
+      <Filter>소스 파일\백트래킹</Filter>
+    </ClCompile>
+    <ClCompile Include="14889.cpp">
       <Filter>소스 파일\백트래킹</Filter>
     </ClCompile>
     <ClCompile Include="24416.cpp">
