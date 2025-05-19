@@ -34,6 +34,9 @@
     <Filter Include="소스 파일\백트래킹">
       <UniqueIdentifier>{8d21fc98-fadb-47a1-8991-f3d16d85b311}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\동적프로그래밍">
+      <UniqueIdentifier>{144b5ec5-6c22-430d-9b90-9ef62191cda3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="test.cpp">
@@ -344,6 +347,12 @@
     </ClCompile>
     <ClCompile Include="2580.cpp">
       <Filter>소스 파일\백트래킹</Filter>
+    </ClCompile>
+    <ClCompile Include="14888.cpp">
+      <Filter>소스 파일\백트래킹</Filter>
+    </ClCompile>
+    <ClCompile Include="24416.cpp">
+      <Filter>소스 파일\동적프로그래밍</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
