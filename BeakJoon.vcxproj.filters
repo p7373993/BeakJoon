@@ -360,5 +360,11 @@
     <ClCompile Include="24416.cpp">
       <Filter>소스 파일\동적프로그래밍</Filter>
     </ClCompile>
+    <ClCompile Include="9184.cpp">
+      <Filter>소스 파일\동적프로그래밍</Filter>
+    </ClCompile>
+    <ClCompile Include="1904.cpp">
+      <Filter>소스 파일\동적프로그래밍</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
