@@ -4,37 +4,27 @@
 
 using namespace std;
 
-vector<int> num(100001);
+vector<pair<int, int>> xy;
+int n;
+int num[100001];
 
-
-int mn = INT_MIN;
-int mx = INT_MIN;
-int back(vector<vector<int>>& vec, int n, int m)
+b[n] = b[n-1] + an || an?
+int back(int idx)
 {
-	if (n == m) return num[n];
-	if (vec[n][m] == mn)
-	{
-		vec[n][m] = back(vec, n, ((m-n) / 2)) + back(vec, ((m-n) / 2) + 1, m);
-	}
-	if (mx < vec[n][m]) mx = vec[n][m];
-	return vec[n][m];
 
+	for (size_t i = idx; i >0; i--)
+	{
+
+	}
 }
 
 		
 
 int main()
 {
-	int n;
 	cin >> n;
-	vector<vector<int>> sum(n+1,vector<int>(n+1,mn));
-	for (size_t i = 1; i <= n; i++)
+	for (size_t i = 0; i < n; i++)
 	{
-		int m;
-		cin >> m;
-		num[i] = m;
+		cin >> num[i + 1];
 	}
-
-	back(sum, 1, n);
-	cout << mx;
 }
