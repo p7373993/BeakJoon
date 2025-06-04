@@ -363,9 +363,6 @@
     <ClCompile Include="9184.cpp">
       <Filter>소스 파일\동적프로그래밍</Filter>
     </ClCompile>
-    <ClCompile Include="1904.cpp">
-      <Filter>소스 파일\동적프로그래밍</Filter>
-    </ClCompile>
     <ClCompile Include="1912.cpp">
       <Filter>소스 파일\동적프로그래밍</Filter>
     </ClCompile>
@@ -380,6 +377,15 @@
     </ClCompile>
     <ClCompile Include="1932.cpp">
       <Filter>소스 파일\동적프로그래밍</Filter>
+    </ClCompile>
+    <ClCompile Include="2579.cpp">
+      <Filter>소스 파일\동적프로그래밍</Filter>
+    </ClCompile>
+    <ClCompile Include="1463.cpp">
+      <Filter>소스 파일\동적프로그래밍</Filter>
+    </ClCompile>
+    <ClCompile Include="10844.cpp">
+      <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
