@@ -34,6 +34,12 @@
     <Filter Include="소스 파일\백트래킹">
       <UniqueIdentifier>{8d21fc98-fadb-47a1-8991-f3d16d85b311}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\동적프로그래밍">
+      <UniqueIdentifier>{144b5ec5-6c22-430d-9b90-9ef62191cda3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\분할정복">
+      <UniqueIdentifier>{39958d23-8c15-4248-93e9-c879ad94a50d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="test.cpp">
@@ -344,6 +350,66 @@
     </ClCompile>
     <ClCompile Include="2580.cpp">
       <Filter>소스 파일\백트래킹</Filter>
+    </ClCompile>
+    <ClCompile Include="14888_1.cpp">
+      <Filter>소스 파일\백트래킹</Filter>
+    </ClCompile>
+    <ClCompile Include="14888.cpp">
+      <Filter>소스 파일\백트래킹</Filter>
+    </ClCompile>
+    <ClCompile Include="14889.cpp">
+      <Filter>소스 파일\백트래킹</Filter>
+    </ClCompile>
+    <ClCompile Include="24416.cpp">
+      <Filter>소스 파일\동적프로그래밍</Filter>
+    </ClCompile>
+    <ClCompile Include="9184.cpp">
+      <Filter>소스 파일\동적프로그래밍</Filter>
+    </ClCompile>
+    <ClCompile Include="1912.cpp">
+      <Filter>소스 파일\동적프로그래밍</Filter>
+    </ClCompile>
+    <ClCompile Include="9461.cpp">
+      <Filter>소스 파일\동적프로그래밍</Filter>
+    </ClCompile>
+    <ClCompile Include="9095.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1149.cpp">
+      <Filter>소스 파일\동적프로그래밍</Filter>
+    </ClCompile>
+    <ClCompile Include="1932.cpp">
+      <Filter>소스 파일\동적프로그래밍</Filter>
+    </ClCompile>
+    <ClCompile Include="2579.cpp">
+      <Filter>소스 파일\동적프로그래밍</Filter>
+    </ClCompile>
+    <ClCompile Include="1463.cpp">
+      <Filter>소스 파일\동적프로그래밍</Filter>
+    </ClCompile>
+    <ClCompile Include="10844.cpp">
+      <Filter>소스 파일\동적프로그래밍</Filter>
+    </ClCompile>
+    <ClCompile Include="2156.cpp">
+      <Filter>소스 파일\동적프로그래밍</Filter>
+    </ClCompile>
+    <ClCompile Include="11053.cpp">
+      <Filter>소스 파일\동적프로그래밍</Filter>
+    </ClCompile>
+    <ClCompile Include="11054.cpp">
+      <Filter>소스 파일\동적프로그래밍</Filter>
+    </ClCompile>
+    <ClCompile Include="2565.cpp">
+      <Filter>소스 파일\동적프로그래밍</Filter>
+    </ClCompile>
+    <ClCompile Include="9251.cpp">
+      <Filter>소스 파일\동적프로그래밍</Filter>
+    </ClCompile>
+    <ClCompile Include="12865.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="6549.cpp">
+      <Filter>소스 파일\분할정복</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
