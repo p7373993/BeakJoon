@@ -40,6 +40,9 @@
     <Filter Include="소스 파일\분할정복">
       <UniqueIdentifier>{39958d23-8c15-4248-93e9-c879ad94a50d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\이분탐색">
+      <UniqueIdentifier>{cc8c95fd-3e4d-49b0-b60a-3d33ae4a65d1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="test.cpp">
@@ -410,6 +413,12 @@
     </ClCompile>
     <ClCompile Include="6549.cpp">
       <Filter>소스 파일\분할정복</Filter>
+    </ClCompile>
+    <ClCompile Include="1920.cpp">
+      <Filter>소스 파일\이분탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="1654.cpp">
+      <Filter>소스 파일\이분탐색</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
