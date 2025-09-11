@@ -420,5 +420,8 @@
     <ClCompile Include="1654.cpp">
       <Filter>소스 파일\이분탐색</Filter>
     </ClCompile>
+    <ClCompile Include="2805.cpp">
+      <Filter>소스 파일\이분탐색</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
