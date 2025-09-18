@@ -43,6 +43,9 @@
     <Filter Include="소스 파일\이분탐색">
       <UniqueIdentifier>{cc8c95fd-3e4d-49b0-b60a-3d33ae4a65d1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\우선순위큐">
+      <UniqueIdentifier>{e3e740ce-aca7-44ed-b3b5-25b7e33851d0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="test.cpp">
@@ -431,6 +434,18 @@
     </ClCompile>
     <ClCompile Include="12015.cpp">
       <Filter>소스 파일\분할정복</Filter>
+    </ClCompile>
+    <ClCompile Include="11279.cpp">
+      <Filter>소스 파일\우선순위큐</Filter>
+    </ClCompile>
+    <ClCompile Include="1927.cpp">
+      <Filter>소스 파일\우선순위큐</Filter>
+    </ClCompile>
+    <ClCompile Include="11286.cpp">
+      <Filter>소스 파일\우선순위큐</Filter>
+    </ClCompile>
+    <ClCompile Include="2075.cpp">
+      <Filter>소스 파일\우선순위큐</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
