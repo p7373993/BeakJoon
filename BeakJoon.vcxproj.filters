@@ -447,5 +447,11 @@
     <ClCompile Include="2075.cpp">
       <Filter>소스 파일\우선순위큐</Filter>
     </ClCompile>
+    <ClCompile Include="2696.cpp">
+      <Filter>소스 파일\우선순위큐</Filter>
+    </ClCompile>
+    <ClCompile Include="1202.cpp">
+      <Filter>소스 파일\우선순위큐</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -15,26 +15,33 @@
 #include <iostream>
 #include <vector>
 #include <queue>
-
+#include <set>
 using namespace std;
 
 int main()
 {
-	priority_queue<long long> pq;
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 
 	int n;
 	cin >> n;
-	vector<vector<long long>> vec(n,vector<long long>(n));
+	long long temp;
+	//long long result = LLONG_MIN;
+	priority_queue<long long,vector<long long>, greater<long long>> pq;
 	for (size_t i = 0; i < n; i++)
 	{
 		for (size_t j = 0; j < n; j++)
 		{
-			cin>>vec[i][j];
+			cin >> temp;
+			//if (temp <= result) continue;
+			pq.push(temp);
 		}
+		while (pq.size() > n)
+		{
+			pq.pop();
+		}
+		//result = pq.top();
 	}
 
-	//끝 행 제일 작은거 기반으로 값 들어가게?
-	//매 행마다 5번째 아래로는다 뽑아버리고 반복?
+	cout << pq.top();
 }
