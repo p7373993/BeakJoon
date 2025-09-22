@@ -46,6 +46,9 @@
     <Filter Include="소스 파일\우선순위큐">
       <UniqueIdentifier>{e3e740ce-aca7-44ed-b3b5-25b7e33851d0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\그래프와 순회">
+      <UniqueIdentifier>{651539dc-c3bc-45b5-a71e-aa2bdd4fe1c7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="test.cpp">
@@ -452,6 +455,24 @@
     </ClCompile>
     <ClCompile Include="1202.cpp">
       <Filter>소스 파일\우선순위큐</Filter>
+    </ClCompile>
+    <ClCompile Include="24479.cpp">
+      <Filter>소스 파일\그래프와 순회</Filter>
+    </ClCompile>
+    <ClCompile Include="24480.cpp">
+      <Filter>소스 파일\그래프와 순회</Filter>
+    </ClCompile>
+    <ClCompile Include="24444.cpp">
+      <Filter>소스 파일\그래프와 순회</Filter>
+    </ClCompile>
+    <ClCompile Include="24445.cpp">
+      <Filter>소스 파일\그래프와 순회</Filter>
+    </ClCompile>
+    <ClCompile Include="2606.cpp">
+      <Filter>소스 파일\그래프와 순회</Filter>
+    </ClCompile>
+    <ClCompile Include="1260.cpp">
+      <Filter>소스 파일\그래프와 순회</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
