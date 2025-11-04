@@ -501,5 +501,8 @@
     <ClCompile Include="16928.cpp">
       <Filter>소스 파일\그래프와 순회</Filter>
     </ClCompile>
+    <ClCompile Include="2206.cpp">
+      <Filter>소스 파일\그래프와 순회</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
