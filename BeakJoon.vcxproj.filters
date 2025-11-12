@@ -49,6 +49,9 @@
     <Filter Include="소스 파일\그래프와 순회">
       <UniqueIdentifier>{651539dc-c3bc-45b5-a71e-aa2bdd4fe1c7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\swea">
+      <UniqueIdentifier>{00d34a07-3eed-4f61-ae70-74c80cab7016}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="test.cpp">
@@ -503,6 +506,18 @@
     </ClCompile>
     <ClCompile Include="2206.cpp">
       <Filter>소스 파일\그래프와 순회</Filter>
+    </ClCompile>
+    <ClCompile Include="25655.cpp">
+      <Filter>소스 파일\swea</Filter>
+    </ClCompile>
+    <ClCompile Include="25656.cpp">
+      <Filter>소스 파일\swea</Filter>
+    </ClCompile>
+    <ClCompile Include="1206.cpp">
+      <Filter>소스 파일\swea</Filter>
+    </ClCompile>
+    <ClCompile Include="1244.cpp">
+      <Filter>소스 파일\swea</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
