@@ -525,5 +525,17 @@
     <ClCompile Include="1249.cpp">
       <Filter>소스 파일\swea</Filter>
     </ClCompile>
+    <ClCompile Include="1210.cpp">
+      <Filter>소스 파일\swea</Filter>
+    </ClCompile>
+    <ClCompile Include="1209.cpp">
+      <Filter>소스 파일\swea</Filter>
+    </ClCompile>
+    <ClCompile Include="swea2805.cpp">
+      <Filter>소스 파일\swea</Filter>
+    </ClCompile>
+    <ClCompile Include="1240.cpp">
+      <Filter>소스 파일\swea</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
